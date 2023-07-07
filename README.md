@@ -1,3 +1,12 @@
+<div align="center">
+  <p align="center">
+    <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/Go4Real34/TrafficSense/total?style=flat&logo=GitHub&label=Downloads" style="margin-right: 5px;">
+    <img alt="GitHub last commit (by committer)" src="https://img.shields.io/github/last-commit/Go4Real34/TrafficSense?display_timestamp=committer" style="margin-right: 5px;">
+    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Go4Real34/TrafficSense" style="margin-right: 5px;">
+    <img alt="GitHub" src="https://img.shields.io/github/license/Go4Real34/TrafficSense">
+  </p>
+</div>
+
 # TrafficSense
 **_Traffic Sign Recognition with CNN (Convolutional Neural Network) Machine Learning \
 by Görkem Sarıkaya for Computer Engineering II, Engineering Project II Course,

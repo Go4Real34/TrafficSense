@@ -19,11 +19,33 @@ The version format given as following.
 > #### - W: No Change in the Project
 > #### - YYYY-MM-DD: Date of release (Year - Month - Day)
 
-# **_Latest Version: [v1.3.0.0] - 2023-07-07_**
+# **_Latest Version: [v1.3.0.1] - 2023-07-07_**
 
 <br>
 
 # **_Change Log History_**
+
+# [v1.3.0.1] - 2023-07-07
+- Updated README.md file.
+
+### **_Additions_**
+- No additions were made.
+
+### **_Changes_**
+- **_Documentations_**
+  - **_README.md_**
+    - Added necessary 'shields.io' badges (4) about the project.
+
+  - **_CHANGELOG.md_**
+    - Added new changes about **_[v1.3.0.1]_**.
+
+### **_Fixes_**
+ - No fixes were made.
+
+### **_Deletions_**
+- No deletions were made.
+
+<br>
 
 # [v1.3.0.0] - 2023-07-07
 - Created test application for the model and added an option to test in the menu.
