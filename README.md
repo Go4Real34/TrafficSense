@@ -137,9 +137,8 @@ by Görkem Sarıkaya for Computer Engineering II, Engineering Project II Course,
     ```.\venv\Scripts\activate```\
     ```pip install -r requirements.txt```
   
-  - Finally, you can run the files;
-    - `ProjectFiles/StepPreparations/check_steps.py`, to check if they necessary functionalities for the project are working or not and,
-    - `ProjectFiles/ModelTraining/train_model.py`, to enter into training mode.
+  - Finally, you can run the file using your IDE;
+    - `TrafficSense.py`, to start the program and navigate through the menu.
 
 
 - If you are using command prompt;
@@ -160,8 +159,7 @@ by Görkem Sarıkaya for Computer Engineering II, Engineering Project II Course,
     ```pip install -r requirements.txt```
   
   - Finally, run the following commands;
-    - ```python ProjectFiles/StepPreparations/check_steps.py```, to check if necessary functionalities for the project are working or not.\
-    - ```python ProjectFiles/ModelTraining/train_model.py```, to go into training mode.
+    - ```python TrafficSense.py``` to start the program and navigate through the menu.
 
 And you should be good to go.
 
@@ -187,7 +185,11 @@ And you should be good to go.
 
 
 # Quick Explanation About How The Tools Work
-- In `check_steps.py`, you can check if these tool are working properly or not.
+## **_Start_**
+  - Firstly, you can select what mode you want to use.
+
+## **_Step Checking Tools_**
+  - In step checking mode, you can check if these tool are working properly or not.
   - For the project, we need 5 critical tools to work. They are;
     - **detect_camera:** Detects the camera and shows the camera capture to the screen. (If your camera is not captured correctly or,
       you want to another camera to be captured; try changing the camera index in the code from 0 to 1, 2, 3... until you found the camera you want to capture.)
@@ -200,8 +202,8 @@ And you should be good to go.
       5 example of traffic signs from each group, another graph is created by combining traffic sign class IDs by counting from 0 to 42 (43 classes) and 
       traffic sign image count for training for each group.
 
-
-- In `train_model.py`, you can train the model with the dataset & labels and save it to the `ProjectFiles/DatasetFiles` folder.
+## **_Model Training_**
+- In model training, you can train the model with the dataset & labels and save it to the `ProjectFiles/DatasetFiles` folder.
   - In this part, the dataset and label file are read and seperated into 3 different groups named train, validation and test, 
     which will be used for the following parts. Then, the dataset is checked for the compatibility for any issues. If it passes, 
     some examples for each group will be shown as a graph. After closing this window, a graph will be shown that shows the distribution 
@@ -217,6 +219,9 @@ And you should be good to go.
 
 
 # Project Media
+
+# Full Menu
+![Full Menu](Resources/images(.png)/full_menu.png)
 
 ## Menu, Show Current Check Status and Exit Console Outputs of "check_steps.py"
 ![check_steps.py Menu, Show Current Check Status and Exit Console Outputs](Resources/images(.png)/check_steps_menu_show_current_check_status_and_exit_console_output.png)

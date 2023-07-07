@@ -19,11 +19,45 @@ The version format given as following.
 > #### - W: No Change in the Project
 > #### - YYYY-MM-DD: Date of release (Year - Month - Day)
 
-# **_Latest Version: [v1.1.0.0] - 2023-07-07_**
+# **_Latest Version: [v1.2.0.0] - 2023-07-07_**
 
 <br>
 
 # **_Change Log History_**
+
+# [v1.2.0.0] - 2023-07-07
+- Created menu for the project to navigate between functionalities.
+
+### **_Additions_**
+- **_Project Files_**
+  - **_TrafficSense.py_**
+    - Main start point of the menu version of project. Handles the input, shows the menu on the console and calls the corresponding 
+      feature depending on the entered input.
+
+
+- **_Resources_**
+  - **_'images(.png) Folder_**
+    - Added an image (1) that is used in the [README.md](README.md) file in the `Project Media` section.
+
+### **_Changes_**
+- **_Documentation_**
+  - **_README.md_**
+    - Added more explanations to `Preparation, Usage & Deletion` and `Quick Explanation About How The Tools Work` sections.
+  
+  - **_CHANGELOG.md_**
+    - Added new changes about **_[v1.2.0.0]_**.
+
+
+- **_Documentation_**
+  - **_.gitignore_**
+    - Added a folder (1) to ignore.
+
+### **_Fixes_**
+ - No fixes were made.
+
+### **_Deletions_**
+- No deletions were made.
+
 
 # [v1.1.0.0] - 2023-07-07
 - Added training phase with CPU & GPU using Tensorflow & Keras.
