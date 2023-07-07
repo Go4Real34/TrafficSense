@@ -19,7 +19,60 @@ The version format given as following.
 > #### - W: No Change in the Project
 > #### - YYYY-MM-DD: Date of release (Year - Month - Day)
 
-# **_Latest Version: [v1.0.0.0] - 2023-07-07_**
+# **_Latest Version: [v1.1.0.0] - 2023-07-07_**
+
+<br>
+
+# **_Change Log History_**
+
+# [v1.1.0.0] - 2023-07-07
+- Added training phase with CPU & GPU using Tensorflow & Keras.
+
+### **_Additions_**
+- **_Project Files_**
+  - **_train_model.py_**
+    - Main start point of the training. Uses all the other functions to train the model step by step.
+  
+  - **_training_step_functions.py_**
+    - Includes all steps of the model training. Each function definition is representing one step.
+
+  - **_training_settings.py_**
+    - Includes settings for the training. These settings can be changed by the user but be aware that changing 
+      these settings may cause problems. 
+
+  - **_training_extra_functions.py_**
+    - Includes other necessary functions that is called multiple times to used by main functions to prevent code repetition.
+
+
+- **_Resources_**
+  - **_'images(.png)' Folder_**
+    - Added images (12) that are used in the [README.md](README.md) file in the `Project Media` section.
+
+### **_Changes_**
+- **_Project Files_**
+  **_'DatasetFiles' Compressed '.rar' File_**
+    - Now, includes pre-trained CPU & GPU models.
+
+
+- **_Documentations_**
+  - **_README.md_**
+    - Added more explanations to `Needed Installation for Windows 11`, `Preparation, Usage & Deletion`, 
+    `Quick Explanation About How the Tool Works` and `Project Media` sections.
+  
+  - **_CHANGELOG.md_**
+    - Added new changes about **_[v1.1.0.0]_**.
+
+  - **_requirements.txt_**
+    - Added new packages that are needed for the training phase.
+
+  - **_.gitignore_**
+    - Added multiple folders (2) to ignore.
+
+### **_Fixes_**
+ - No fixes were made.
+
+### **_Deletions_**
+- No deletions were made.
 
 <br>
 
