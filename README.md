@@ -217,6 +217,20 @@ And you should be good to go.
     to the screen where one of them is being the graph of accuracy of the model and other is being the graph of loss of the model. After closing these windows, 
     model will be scored and score will be printed on console. Finally, both model and training type will be saved and save paths will be printed to console.
 
+## **Application Testing_**
+- In application testing, the trained model is used to analyze traffic signs and show the results on the screen.
+  - In this part, your selected camera frames are captured and processed to a version that computer can understand. Meanwhile;
+    - If `Begin Analyzing` button is clicked, analysis become activated. Trained model is used for analyzing the images and if one of the predictions that contains a higher number than 
+    the `detection threshold`, that means a traffic sign detected. So, the corresponding information about traffic sign is acquired and this information 
+    put to the screen.
+    - If the `Stop Analyzing` button is clicked, analysis is deactivated. Just the captured screen is shown to the screen along with the `detection deactivated` text.
+    - If the `Take Photo` button is clicked, the current information put to a different image in the background simultaneously and the image is saved to 
+    `Photos` folder so that user can access it later.
+    - If the `Clear Photos` button is clicked, all the photos in the `Photos` folder will be deleted and results tab will be cleared.
+    - If the `Clear Results Tab` button is clicked, only the results tab will be cleared.
+    - If the `Close` button or the `X` button on the top right corner of the window is clicked, the user will be asked about being sure and if `Yes` is 
+      clicked, the application will be closed.
+
 
 # Project Media
 
@@ -281,6 +295,21 @@ And you should be good to go.
 
   ## GPU Trained Model Test Score
   ![GPU Trained Model Test Score](Resources/images(.png)/gpu_trained_model_test_score.png)
+
+# Camera Detection Check before Analysis
+![Camera Detection Check before Analysis](Resources/images(.png)/camera_detection_check_before_analysis.png)
+
+# All Command Completed Texts
+![All Command Completed Texts](Resources/images(.png)/all_command_completed_texts.png)
+
+# Detection Deactivated UI
+![Detection Deactivated UI](Resources/images(.png)/detection_deactivated_ui.png)
+
+# Detection Activated but Traffic Sign Not Detected UI
+![Detection Activated but Traffic Sign Not Detected UI](Resources/images(.png)/detection_activated_but_traffic_sign_not_detected_ui.png)
+
+# Detection Activated and Traffic Sign Detected UI
+![Detection Activated and Traffic Sign Detected UI](Resources/images(.png)/detection_activated_and_traffic_sign_detected_ui.png)
 
 
 # Known Issues

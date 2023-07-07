@@ -19,11 +19,67 @@ The version format given as following.
 > #### - W: No Change in the Project
 > #### - YYYY-MM-DD: Date of release (Year - Month - Day)
 
-# **_Latest Version: [v1.2.0.0] - 2023-07-07_**
+# **_Latest Version: [v1.3.0.0] - 2023-07-07_**
 
 <br>
 
 # **_Change Log History_**
+
+# [v1.3.0.0] - 2023-07-07
+- Created test application for the model and added an option to test in the menu.
+
+### **_Additions_**
+- **_Project Files_**
+  - **_test_model.py_**
+    - Main start point of the testing application. Functions are called to get images, do analysis and set the 
+      results to the screen.
+  
+  - **_test_step_functions.py_**
+    - Includes all steps of the model testing. Each function definition is representing one step.
+  
+  - **_test_settings.py_**
+    - Includes settings for the testing. These settings can be changed by the user but be aware that changing 
+      these settings may cause problems.
+  
+  - **_test_extra_functions.py_**
+    - Includes other necessary functions that is called multiple times to used by main functions to prevent code repetition.
+  
+  - **_background_functions.py_**
+    - Includes functions that is called by 'tkinter' window asynchronously.
+
+
+- **_Resources_**
+  - **_'images(.png)' Folder_**
+      - Added images (5) that are used in the [README.md](README.md) file in the `Project Media` section.
+
+### **_Changes_**
+- **_Project Files_**
+  - **_TrafficSense.py_**
+    - Added new option to the menu to execute application testing.
+
+
+- **_Documentation_**
+  - **_README.md_**
+    - Added more explanations to `Quick Explanation About How The Tools Work` and `Project Media` section.
+  
+  - **_CHANGELOG.md_**
+    - Added new changes about **_[v1.3.0.0]_**.
+
+  - **_.gitignore_**
+    - Added multiple folders (2) to ignore. 
+
+
+- **_Resources_**
+  - **_'images(.png)' Folder_**
+    - `full_menu.png` is updated according to the new menu on the console.
+
+### **_Fixes_**
+ - No fixes were made.
+
+### **_Deletions_**
+- No deletions were made.
+
+<br>
 
 # [v1.2.0.0] - 2023-07-07
 - Created menu for the project to navigate between functionalities.

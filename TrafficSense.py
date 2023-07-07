@@ -9,9 +9,10 @@ def main():
     print("Please select a option.\n"
           "[1] - Check Steps\n"
           "[2] - Start Training\n"
+          "[3] - Test Application\n"
           "[0] - Exit\n")
 
-    option = get_menu_input([1, 2, 0])
+    option = get_menu_input([1, 2, 3, 0])
 
     current_cwd = os.getcwd()
     python_interpreter = sys.executable
@@ -26,6 +27,10 @@ def main():
         script_path = os.path.join(script_path, "train_model.py")
 
     elif option == 3:
+        script_path = os.path.join(script_path, "ApplicationTesting")
+        script_path = os.path.join(script_path, "test_model.py")
+
+    elif option == 0:
         print("Exiting...")
         return 0
 

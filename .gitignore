@@ -7,5 +7,7 @@ ProjectFiles/StepPreparations/__pycache__/
 ProjectFiles/StepPreparations/StepCheckingFunctions/__pycache__/
 ProjectFiles/ModelTraining/__pycache__/
 ProjectFiles/ModelTraining/TrainingFunctions/__pycache__/
+ProjectFiles/ApplicationTesting/__pycache__/
+ProjectFiles/ApplicationTesting/TestingFunctions/__pycache__/
 
 ProjectFiles/DatasetFiles/
